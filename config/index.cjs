@@ -13,7 +13,7 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'c65dad9b52f645fda364fc8c3f0454e9',
 
-  PROVINCE: '江苏',
+  PROVINCE: '常州',
   CITY: '溧阳',
 
   USERS: [
@@ -23,26 +23,26 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oocL-17TyDcglLvLfyQzpoahDBbI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'DoketIIVnATNdNGtO2LxJvNEtn8rwH3Q7oTc-19_fkA',
+      useTemplateId: '6JTICleBGMnwg3dFTP-tV5w7ObfPLBIgHgiruhRMaZA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-17',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '哥们', year: '2005', date: '06-12',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '哥', year: '2005', date: '07-17',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-      ],
+      // horoscopeDate: '07-17',
+      // festivals: [
+      //   // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+      //   {
+      //     type: '*生日', name: '哥们', year: '2005', date: '06-12',
+      //   },
+      //   // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+      //   {
+      //     type: '生日', name: '哥', year: '2005', date: '07-17',
+      //   },
+      // ],
+      // // 我们在一起已经有xxxx天了的配置
+      // customizedDateList: [
+      //   // 在一起的日子
+      //   { keyword: 'love_day', date: '2022-09-08' },
+      //   // 结婚纪念日
+      //   { keyword: 'marry_day', date: '2022-09-09' },
+      // ],
     },
   ],
 
